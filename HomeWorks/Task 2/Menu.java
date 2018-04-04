@@ -50,7 +50,7 @@ class Menu {
 					for (int i = 0; i < a; i++)
 					{
 						int b = scanner.nextInt();
-						sum = b + sum;
+						sum = sum + b;
 					}
 					System.out.println(sum);
 					break;
